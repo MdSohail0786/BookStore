@@ -1,0 +1,16 @@
+Backend/node_modules/
+Frontend/node_modules/
+node_modules/
+.env
+.env.local
+dist/
+# Local environment variables (Aapke passwords/keys)
+.env
+.env.local
+
+# Build folders (Agar Vite se build banayi ho)
+dist/
+
+# System files
+.DS_Store
+Thumbs.db
