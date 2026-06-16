@@ -4,11 +4,11 @@ export const getBook = async (req, res) => {
   try {
     const book = await Book.find();
 
-    console.log("Books found:", book);
+    console.log("Books count:", book.length);
 
     res.status(200).json(book);
   } catch (error) {
-    console.log("Error:", error);
+    console.log(error);
     res.status(500).json(error);
   }
 };
